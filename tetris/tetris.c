@@ -98,7 +98,7 @@ void base_block(void)
 
 				delay(10); /* delay(10)을 할 때마다 key가 입력되었는지 검사 */
 
-				if (kbhit_()) /* keyboard가 눌려졌는지를 검사 */
+				if (kbhit()) /* keyboard가 눌려졌는지를 검사 */
 				{
 					while (!bioskey(1));
 

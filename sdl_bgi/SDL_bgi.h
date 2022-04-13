@@ -319,7 +319,7 @@ unsigned imagesize (int, int, int, int);
 void initgraph (int *, int *, char *);
 int  installuserdriver (char *name, int (*detect)(void));
 int  installuserfont (char *);
-int  kbhit_ (void);
+int  kbhit (void);
 void line (int, int, int, int);
 void linerel (int dx, int dy);
 void lineto (int x, int y);

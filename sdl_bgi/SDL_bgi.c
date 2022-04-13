@@ -866,7 +866,7 @@ void delay (int msec)
 
   do {
 
-      if (kbhit_()) // take care of keypresses      
+      if (kbhit()) // take care of keypresses      
           key_pressed = YEAH;          
       
     if (xkbhit ())
@@ -2398,7 +2398,7 @@ int IS_RGB_COLOR (int color)
 
 
 
-int kbhit_ (void)
+int kbhit (void)
 {
   // Returns 1 when a key is pressed, or QUIT
   // if the user asked to close the window
