@@ -11,7 +11,7 @@ vcpkg install sdl2
 vcpkg integrate install
 ```
 
-* in release tab, download DOSBOX-X.rar. and extract to project folder.
+* in release tab, download DOSBOX-X.rar and extract to project folder.
 
 ### win32 result
 
