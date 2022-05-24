@@ -1,7 +1,7 @@
 # sdl_bgi
 windows / dos cross platform BGI(Borand Graphics Interface) development system
 
-[Original Code](https://github.com/genpfault/sdl-bgi)  
+[Original sdl bgi Code](https://github.com/genpfault/sdl-bgi)  
 
 ## BUILD
 * visual studio 2019 or higher
