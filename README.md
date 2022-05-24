@@ -13,7 +13,10 @@ vcpkg integrate install
 
 * in release tab, download DOSBOX-X.rar. and extract to project folder.
 
+### dos result
 
 <img src="./img/win32.png">
+
+### win32 result
 
 <img src="./img/dos.png">
